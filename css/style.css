@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'whereas';
+  src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+html,
+body {
+  height: 100%; 
+}
+
+/* NAVBAR */
+.navbar.navbar-expand-lg {
+  background-color: #c48b40;
+  font-weight: 700;
+}
+
+#idNavEntregues{
+  background-color: #346534;
+}
+#idNavRelat{
+  background-color: #6a91c4;
+}
+#footerEntregues{
+  background-color: #346534;
+  bottom: 0;
+}
+
+#h1Header {
+  font-family: 'whereas';
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* FIM DA NAVBAR */
+
+/* LOGIN */
+main.container.mainLogin, main.container.mainCliente {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-top: 50px;
+  background-color: #e9c286;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 3px 5px 20px black;
+}
+
+input.form-control {
+  width: 380px;
+}
+
+.imgsLogins {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3px;
+}
+
+.googleIcon {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.imgPizzaLogin {
+  margin-left: 150px;
+}
+
+.h1ImgLogin {
+  display: flex;
+  align-items: center;
+  font-family: 'whereas';
+  font-size: 50px;
+}
+
+.btn.btnLogin {
+  background-color: #F15A25;
+  color: white;
+  width: 380px;
+}
+
+.btn.btnLogin:hover,
+.btn.btnCadastro:hover {
+  background-color: #ca4e21;
+}
+
+.pRegistro {
+  text-align: center;
+}
+
+.linkRegistro {
+  color: #F15A25;
+
+}
+
+.bodyLogin {
+  background-color: #EFB466;
+  background-image: url(../img/pizzaBackgroundLogin.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.h1Login {
+  font-family: 'whereas';
+  font-size: 50px;
+}
+
+.linkClient{
+  color: #F15A25;
+}
+
+.pCadastro{
+  padding-top: 20px;
+  text-align: center;
+}
+/* FIM DO LOGIN */
+
+/* CADASTRO CLIENTE */
+
+.bodyCliente{
+  background-image: url(../img/clienteBackground.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+
+/* CADASTRO */
+nav#navCadastro {
+  background-color: #421d17;
+}
+
+.bodyCadastro {
+  background-image: url(../img/pizzaBackgroundCadastro.jpg);
+  background-position-x: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainCadastro {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-top: 75px;
+  background-color: #e9c286;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 3px 5px 20px black;
+}
+
+.btn.btnCadastro, .btn.btnCadastroCliente {
+  background-color: #F15A25;
+  color: white;
+  width: 380px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+/* HOME */
+#main-banner {
+  background-image: url(../img/pizzaBackground.jpg);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-position-y: -230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-banner h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+  text-transform: uppercase;
+  width: 550px;
+  font-size: 50px;
+  background-color: #c48b40;
+  box-shadow: 0px 5px 20px 0px #000000c9;
+}
+
+#main-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.row {
+  margin: 0;
+}
+div.col-md-12{
+  padding: 25px;
+}
+#pizza-form {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#pizza-form label {
+  font-weight: bold;
+}
+
+.btn.btnPedido{
+  background-color: #cb4818;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: bold;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 175px;
+  background-color: #c48b40;
+  column-rule: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.alert.alert-success {
+  border: 2px solid #155724;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.alert.alert-warning {
+  border: 2px solid #856404;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.alert.alert-danger {
+  border: 2px solid #850404;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.alert.alert-primary {
+  border: 2px solid #2d41db;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* FIM DO HOME */
+
+/* DASHBOARD */
+
+.delete-btn,
+.uptade-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-btn i {
+  color: #721c24;
+  font-size: 20px;
+}
+
+.uptade-btn {
+  margin-left: 10px;
+}
+
+.uptade-btn,
+.uptade-btn i {
+  color: #004085;
+  font-size: 20px;
+}
+
+.uptade-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.status-input {
+  width: 55%;
+}
+
+.table ul {
+  text-align: left;
+}
+
+td .form-group {
+  margin-top: 0px;
+}
+
+.table-striped>tbody>tr:nth-child(2n)>td,
+.table-striped>tbody>tr:nth-child(2n)>th {
+  background-color: lightgreen;
+}
+
+.table-striped.table-relat>tbody>tr:nth-child(2n)>td,
+.table-striped.table-relat>tbody>tr:nth-child(2n)>th {
+  background-color: #6a91c4;
+
+}
+
+.table-striped.table-dashboard>tbody>tr:nth-child(2n)>td,
+.table-striped.table-dashboard>tbody>tr:nth-child(2n)>th {
+  background-color: #c48b40;
+}
+
+/* FIM DO DASHBOARD */
+
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MÓVEIS */
